@@ -17,11 +17,6 @@ https://github.com/Team-Code/KA_Offline -->
 <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script>
 
 <script>
-    var scene0 = function() {
-        
-        textAlign(CENTER,CENTER);
-        text("Free Money Hub", width/2, height/2);
-    }
 
     var sketchProc = function(processingInstance) {
      with (processingInstance) {
@@ -30,7 +25,9 @@ https://github.com/Team-Code/KA_Offline -->
         frameRate(30);
         smooth();
         // ProgramCodeGoesHere
-        scene0();
+        fill(255,255,255);
+        textAlign(CENTER,CENTER);
+        text("Free Money Hub", width/2, height/2);
         
     }};
 
