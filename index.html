@@ -2,7 +2,7 @@
 https://github.com/Team-Code/KA_Offline -->
 <html>
 <head>
-    <title>Processing.JS inside Webpages: Template</title>
+    <title>buy rubber duck</title>
 </head>
 <body>
 <p align="center">
@@ -17,21 +17,20 @@ https://github.com/Team-Code/KA_Offline -->
 <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script>
 
 <script>
-    var scene0 = function(var w, var y) {
+    var scene0 = function() {
         fill(255, 255, 255);
         textAlign(CENTER,CENTER);
-        text("Free Money Hub", w/2, y/2);
+        text("Free Money Hub", width/2, height/2);
     }
 
     var sketchProc = function(processingInstance) {
      with (processingInstance) {
-        var w = 400;
-        var h = 400;
-        size(400, 400);
+
+        size(width, height);
         frameRate(30);
         smooth();
         // ProgramCodeGoesHere
-        scene0(w, y);
+        scene0();
         
     }};
 
